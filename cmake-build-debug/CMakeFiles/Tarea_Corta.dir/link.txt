@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o CMakeFiles/Tarea_Corta.dir/Structures/Node.cpp.o CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.o CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o  -o Tarea_Corta 
