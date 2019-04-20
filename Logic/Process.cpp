@@ -8,12 +8,18 @@ Process::Process()
 {
     time= 0;
     type= "Unassigned";
+    ctype="Unassigned";
+    pnumber=0;
+    porder=0;
 }
 
-Process::Process(int t, string s)
+Process::Process(int t, string tp,string ct,int pn,int po)
 {
     time= t;
-    type= s;
+    type= tp;
+    ctype=ct;
+    pnumber=pn;
+    porder=po;
 }
 
 void Process::setTime(int t)
@@ -32,4 +38,26 @@ int Process::getTime() {
 
 string Process::getType() {
     return type;
+}
+
+void Process::setPnumber(int p)
+{
+    this->pnumber=p;
+}
+int Process::getPnumber()
+{
+    return this->pnumber;
+}
+void Process::setPorder(int p)
+{
+    this->porder=p;
+}
+int Process::getPorder()
+{
+    return this->porder;
+}
+
+string Process::getCtype()
+{
+    return ctype;
 }

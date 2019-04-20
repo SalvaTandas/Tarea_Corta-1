@@ -96,18 +96,18 @@ CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process.cpp -o CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.s
 
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o: CMakeFiles/Tarea_Corta.dir/flags.make
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o: ../Structures/Lane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Tarea_Corta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o -c /home/dcamachog1501/Desktop/Tarea_Corta/Structures/Lane.cpp
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: CMakeFiles/Tarea_Corta.dir/flags.make
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Structures/Car_Lane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Tarea_Corta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o -c /home/dcamachog1501/Desktop/Tarea_Corta/Structures/Car_Lane.cpp
 
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Tarea_Corta/Structures/Lane.cpp > CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.i
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Tarea_Corta/Structures/Car_Lane.cpp > CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.i
 
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Tarea_Corta/Structures/Lane.cpp -o CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.s
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Tarea_Corta/Structures/Car_Lane.cpp -o CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.s
 
 CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: CMakeFiles/Tarea_Corta.dir/flags.make
 CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Logic/Factory.cpp
@@ -135,14 +135,56 @@ CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.cpp -o CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.s
 
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o: CMakeFiles/Tarea_Corta.dir/flags.make
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o: ../Logic/Process_Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Tarea_Corta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o -c /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Manager.cpp
+
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Manager.cpp > CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.i
+
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Manager.cpp -o CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.s
+
+CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o: CMakeFiles/Tarea_Corta.dir/flags.make
+CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o: ../Structures/MainLane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Tarea_Corta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o -c /home/dcamachog1501/Desktop/Tarea_Corta/Structures/MainLane.cpp
+
+CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Tarea_Corta/Structures/MainLane.cpp > CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.i
+
+CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Tarea_Corta/Structures/MainLane.cpp -o CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.s
+
+CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o: CMakeFiles/Tarea_Corta.dir/flags.make
+CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o: ../Structures/WaitingQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dcamachog1501/Desktop/Tarea_Corta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o -c /home/dcamachog1501/Desktop/Tarea_Corta/Structures/WaitingQueue.cpp
+
+CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dcamachog1501/Desktop/Tarea_Corta/Structures/WaitingQueue.cpp > CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.i
+
+CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dcamachog1501/Desktop/Tarea_Corta/Structures/WaitingQueue.cpp -o CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.s
+
 # Object files for target Tarea_Corta
 Tarea_Corta_OBJECTS = \
 "CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o" \
 "CMakeFiles/Tarea_Corta.dir/Structures/Node.cpp.o" \
 "CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.o" \
-"CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o" \
+"CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o" \
 "CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o" \
-"CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o"
+"CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o" \
+"CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o" \
+"CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o" \
+"CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o"
 
 # External object files for target Tarea_Corta
 Tarea_Corta_EXTERNAL_OBJECTS =
@@ -150,12 +192,15 @@ Tarea_Corta_EXTERNAL_OBJECTS =
 Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o
 Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Structures/Node.cpp.o
 Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.o
-Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o
+Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o
 Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o
 Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o
+Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o
+Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o
+Tarea_Corta: CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o
 Tarea_Corta: CMakeFiles/Tarea_Corta.dir/build.make
 Tarea_Corta: CMakeFiles/Tarea_Corta.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/Tarea_Corta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Tarea_Corta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dcamachog1501/Desktop/Tarea_Corta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Tarea_Corta"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tarea_Corta.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

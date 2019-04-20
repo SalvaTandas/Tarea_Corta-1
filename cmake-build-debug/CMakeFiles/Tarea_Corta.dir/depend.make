@@ -5,31 +5,63 @@ CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Logic/Factory.cpp
 CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Logic/Factory.h
 CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Logic/Process.h
 CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Logic/Process_Maker.h
-CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Structures/Lane.h
+CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Logic/Process_Manager.h
+CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Structures/Car_Lane.h
+CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Structures/MainLane.h
 CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Structures/Node.h
+CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o: ../Structures/WaitingQueue.h
 
 CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.o: ../Logic/Process.cpp
 CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.o: ../Logic/Process.h
 
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Logic/Factory.h
 CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Logic/Process.h
 CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Logic/Process_Maker.cpp
 CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Logic/Process_Maker.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Logic/Process_Manager.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Structures/Car_Lane.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Structures/MainLane.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Structures/Node.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o: ../Structures/WaitingQueue.h
+
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o: ../Logic/Process.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o: ../Logic/Process_Manager.cpp
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o: ../Logic/Process_Manager.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o: ../Structures/MainLane.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o: ../Structures/Node.h
+CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o: ../Structures/WaitingQueue.h
 
 CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Logic/Factory.h
 CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Logic/Process.h
 CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Logic/Process_Maker.h
+CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Logic/Process_Manager.h
 CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Main/main.cpp
-CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Structures/Lane.h
+CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Structures/Car_Lane.h
+CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Structures/MainLane.h
 CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Structures/Node.h
+CMakeFiles/Tarea_Corta.dir/Main/main.cpp.o: ../Structures/WaitingQueue.h
 
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o: ../Logic/Factory.h
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o: ../Logic/Process.h
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o: ../Logic/Process_Maker.h
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o: ../Structures/Lane.cpp
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o: ../Structures/Lane.h
-CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o: ../Structures/Node.h
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Logic/Factory.h
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Logic/Process.h
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Logic/Process_Maker.h
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Logic/Process_Manager.h
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Structures/Car_Lane.cpp
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Structures/Car_Lane.h
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Structures/MainLane.h
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Structures/Node.h
+CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o: ../Structures/WaitingQueue.h
+
+CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o: ../Logic/Process.h
+CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o: ../Structures/MainLane.cpp
+CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o: ../Structures/MainLane.h
+CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o: ../Structures/Node.h
 
 CMakeFiles/Tarea_Corta.dir/Structures/Node.cpp.o: ../Logic/Process.h
 CMakeFiles/Tarea_Corta.dir/Structures/Node.cpp.o: ../Structures/Node.cpp
 CMakeFiles/Tarea_Corta.dir/Structures/Node.cpp.o: ../Structures/Node.h
+
+CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o: ../Logic/Process.h
+CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o: ../Structures/Node.h
+CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o: ../Structures/WaitingQueue.cpp
+CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o: ../Structures/WaitingQueue.h
 

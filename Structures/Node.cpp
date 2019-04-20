@@ -13,9 +13,14 @@ Node::Node()
 Node::Node(Process p)
 {
     next= nullptr;
+    proceso= new Process;
     *proceso=p;
 }
-
+Node::Node(Process *p)
+{
+    next= nullptr;
+    proceso=p;
+}
 Node *Node::getNext()
 {
     return next;
@@ -32,16 +37,9 @@ void Node::setProcess(Process p)
     *pr=p;
     proceso=pr;
 }
-
-void Node::setNext(Node n)
-{
-    Node* nd= new Node();
-    *nd= n;
-    next=nd;
-}
-
 void Node::setNext(Node *n)
 {
     this->next=n;
 }
+
 

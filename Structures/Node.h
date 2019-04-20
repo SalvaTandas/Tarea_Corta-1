@@ -16,6 +16,7 @@ class Node {
     public:
         Node();
         Node(Process p);
+        Node (Process* p);
         Node* getNext();
         Process* getProcess();
         void setProcess(Process p);

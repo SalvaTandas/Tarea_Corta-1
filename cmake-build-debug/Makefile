@@ -204,6 +204,33 @@ Logic/Process_Maker.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.s
 .PHONY : Logic/Process_Maker.cpp.s
 
+Logic/Process_Manager.o: Logic/Process_Manager.cpp.o
+
+.PHONY : Logic/Process_Manager.o
+
+# target to build an object file
+Logic/Process_Manager.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.o
+.PHONY : Logic/Process_Manager.cpp.o
+
+Logic/Process_Manager.i: Logic/Process_Manager.cpp.i
+
+.PHONY : Logic/Process_Manager.i
+
+# target to preprocess a source file
+Logic/Process_Manager.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.i
+.PHONY : Logic/Process_Manager.cpp.i
+
+Logic/Process_Manager.s: Logic/Process_Manager.cpp.s
+
+.PHONY : Logic/Process_Manager.s
+
+# target to generate assembly for a file
+Logic/Process_Manager.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Logic/Process_Manager.cpp.s
+.PHONY : Logic/Process_Manager.cpp.s
+
 Main/main.o: Main/main.cpp.o
 
 .PHONY : Main/main.o
@@ -231,32 +258,59 @@ Main/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Main/main.cpp.s
 .PHONY : Main/main.cpp.s
 
-Structures/Lane.o: Structures/Lane.cpp.o
+Structures/Car_Lane.o: Structures/Car_Lane.cpp.o
 
-.PHONY : Structures/Lane.o
+.PHONY : Structures/Car_Lane.o
 
 # target to build an object file
-Structures/Lane.cpp.o:
-	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o
-.PHONY : Structures/Lane.cpp.o
+Structures/Car_Lane.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.o
+.PHONY : Structures/Car_Lane.cpp.o
 
-Structures/Lane.i: Structures/Lane.cpp.i
+Structures/Car_Lane.i: Structures/Car_Lane.cpp.i
 
-.PHONY : Structures/Lane.i
+.PHONY : Structures/Car_Lane.i
 
 # target to preprocess a source file
-Structures/Lane.cpp.i:
-	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.i
-.PHONY : Structures/Lane.cpp.i
+Structures/Car_Lane.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.i
+.PHONY : Structures/Car_Lane.cpp.i
 
-Structures/Lane.s: Structures/Lane.cpp.s
+Structures/Car_Lane.s: Structures/Car_Lane.cpp.s
 
-.PHONY : Structures/Lane.s
+.PHONY : Structures/Car_Lane.s
 
 # target to generate assembly for a file
-Structures/Lane.cpp.s:
-	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.s
-.PHONY : Structures/Lane.cpp.s
+Structures/Car_Lane.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/Car_Lane.cpp.s
+.PHONY : Structures/Car_Lane.cpp.s
+
+Structures/MainLane.o: Structures/MainLane.cpp.o
+
+.PHONY : Structures/MainLane.o
+
+# target to build an object file
+Structures/MainLane.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.o
+.PHONY : Structures/MainLane.cpp.o
+
+Structures/MainLane.i: Structures/MainLane.cpp.i
+
+.PHONY : Structures/MainLane.i
+
+# target to preprocess a source file
+Structures/MainLane.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.i
+.PHONY : Structures/MainLane.cpp.i
+
+Structures/MainLane.s: Structures/MainLane.cpp.s
+
+.PHONY : Structures/MainLane.s
+
+# target to generate assembly for a file
+Structures/MainLane.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/MainLane.cpp.s
+.PHONY : Structures/MainLane.cpp.s
 
 Structures/Node.o: Structures/Node.cpp.o
 
@@ -285,6 +339,33 @@ Structures/Node.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/Node.cpp.s
 .PHONY : Structures/Node.cpp.s
 
+Structures/WaitingQueue.o: Structures/WaitingQueue.cpp.o
+
+.PHONY : Structures/WaitingQueue.o
+
+# target to build an object file
+Structures/WaitingQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.o
+.PHONY : Structures/WaitingQueue.cpp.o
+
+Structures/WaitingQueue.i: Structures/WaitingQueue.cpp.i
+
+.PHONY : Structures/WaitingQueue.i
+
+# target to preprocess a source file
+Structures/WaitingQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.i
+.PHONY : Structures/WaitingQueue.cpp.i
+
+Structures/WaitingQueue.s: Structures/WaitingQueue.cpp.s
+
+.PHONY : Structures/WaitingQueue.s
+
+# target to generate assembly for a file
+Structures/WaitingQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Structures/WaitingQueue.cpp.s
+.PHONY : Structures/WaitingQueue.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -303,15 +384,24 @@ help:
 	@echo "... Logic/Process_Maker.o"
 	@echo "... Logic/Process_Maker.i"
 	@echo "... Logic/Process_Maker.s"
+	@echo "... Logic/Process_Manager.o"
+	@echo "... Logic/Process_Manager.i"
+	@echo "... Logic/Process_Manager.s"
 	@echo "... Main/main.o"
 	@echo "... Main/main.i"
 	@echo "... Main/main.s"
-	@echo "... Structures/Lane.o"
-	@echo "... Structures/Lane.i"
-	@echo "... Structures/Lane.s"
+	@echo "... Structures/Car_Lane.o"
+	@echo "... Structures/Car_Lane.i"
+	@echo "... Structures/Car_Lane.s"
+	@echo "... Structures/MainLane.o"
+	@echo "... Structures/MainLane.i"
+	@echo "... Structures/MainLane.s"
 	@echo "... Structures/Node.o"
 	@echo "... Structures/Node.i"
 	@echo "... Structures/Node.s"
+	@echo "... Structures/WaitingQueue.o"
+	@echo "... Structures/WaitingQueue.i"
+	@echo "... Structures/WaitingQueue.s"
 .PHONY : help
 
 

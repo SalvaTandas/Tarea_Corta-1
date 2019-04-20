@@ -7,28 +7,42 @@
 #IncludeRegexTransform: 
 
 /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Factory.h
-../Structures/Lane.h
-/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Lane.h
+../Structures/Car_Lane.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Car_Lane.h
 Process_Maker.h
 /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.h
+Process_Manager.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Manager.h
 
 /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process.h
 string
 -
 
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.cpp
+Process_Maker.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.h
+Factory.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Factory.h
+
 /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.h
 Process.h
 /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process.h
 
-/home/dcamachog1501/Desktop/Tarea_Corta/Main/main.cpp
-iostream
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Manager.h
+string
 -
-../Logic/Factory.h
-/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Factory.h
+../Structures/MainLane.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/MainLane.h
+../Structures/WaitingQueue.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/WaitingQueue.h
 
-/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Lane.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Car_Lane.h
 vector
 -
+Node.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Node.h
+
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/MainLane.h
 Node.h
 /home/dcamachog1501/Desktop/Tarea_Corta/Structures/Node.h
 
@@ -37,4 +51,8 @@ string
 -
 ../Logic/Process.h
 /home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process.h
+
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/WaitingQueue.h
+Node.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Node.h
 
