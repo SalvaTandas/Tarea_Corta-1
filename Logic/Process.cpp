@@ -6,30 +6,30 @@
 
 Process::Process()
 {
-    time= new int(0);
-    type= new string("Unassigned");
+    time= 0;
+    type= "Unassigned";
 }
 
 Process::Process(int t, string s)
 {
-    time= new int(t);
-    type= new string(s);
+    time= t;
+    type= s;
 }
 
 void Process::setTime(int t)
 {
-    *time=t;
+    time=t;
 }
 
 void Process::setType(string s)
 {
-    *type=s;
+    type=s;
 }
 
 int Process::getTime() {
-    return *time;
+    return time;
 }
 
 string Process::getType() {
-    return *type;
+    return type;
 }

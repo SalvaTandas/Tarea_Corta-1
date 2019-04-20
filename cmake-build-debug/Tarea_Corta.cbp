@@ -96,6 +96,12 @@
 		<Unit filename="/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process.h">
 			<Option target="Tarea_Corta"/>
 		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.cpp">
+			<Option target="Tarea_Corta"/>
+		</Unit>
+		<Unit filename="/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.h">
+			<Option target="Tarea_Corta"/>
+		</Unit>
 		<Unit filename="/home/dcamachog1501/Desktop/Tarea_Corta/Main/main.cpp">
 			<Option target="Tarea_Corta"/>
 		</Unit>

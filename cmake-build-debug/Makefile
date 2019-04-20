@@ -177,6 +177,33 @@ Logic/Process.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.s
 .PHONY : Logic/Process.cpp.s
 
+Logic/Process_Maker.o: Logic/Process_Maker.cpp.o
+
+.PHONY : Logic/Process_Maker.o
+
+# target to build an object file
+Logic/Process_Maker.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o
+.PHONY : Logic/Process_Maker.cpp.o
+
+Logic/Process_Maker.i: Logic/Process_Maker.cpp.i
+
+.PHONY : Logic/Process_Maker.i
+
+# target to preprocess a source file
+Logic/Process_Maker.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.i
+.PHONY : Logic/Process_Maker.cpp.i
+
+Logic/Process_Maker.s: Logic/Process_Maker.cpp.s
+
+.PHONY : Logic/Process_Maker.s
+
+# target to generate assembly for a file
+Logic/Process_Maker.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea_Corta.dir/build.make CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.s
+.PHONY : Logic/Process_Maker.cpp.s
+
 Main/main.o: Main/main.cpp.o
 
 .PHONY : Main/main.o
@@ -273,6 +300,9 @@ help:
 	@echo "... Logic/Process.o"
 	@echo "... Logic/Process.i"
 	@echo "... Logic/Process.s"
+	@echo "... Logic/Process_Maker.o"
+	@echo "... Logic/Process_Maker.i"
+	@echo "... Logic/Process_Maker.s"
 	@echo "... Main/main.o"
 	@echo "... Main/main.i"
 	@echo "... Main/main.s"

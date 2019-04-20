@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Tarea_Corta.dir/Logic/Process.cpp.o"
   "CMakeFiles/Tarea_Corta.dir/Structures/Lane.cpp.o"
   "CMakeFiles/Tarea_Corta.dir/Logic/Factory.cpp.o"
+  "CMakeFiles/Tarea_Corta.dir/Logic/Process_Maker.cpp.o"
   "Tarea_Corta.pdb"
   "Tarea_Corta"
 )

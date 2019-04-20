@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Factory.h
+../Structures/Lane.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Lane.h
+Process_Maker.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.h
+
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process.h
+string
+-
+
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process_Maker.h
+Process.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process.h
+
+/home/dcamachog1501/Desktop/Tarea_Corta/Main/main.cpp
+iostream
+-
+../Logic/Factory.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Factory.h
+
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Lane.h
+vector
+-
+Node.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Node.h
+
+/home/dcamachog1501/Desktop/Tarea_Corta/Structures/Node.h
+string
+-
+../Logic/Process.h
+/home/dcamachog1501/Desktop/Tarea_Corta/Logic/Process.h
+

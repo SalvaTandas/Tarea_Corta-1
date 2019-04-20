@@ -30,9 +30,9 @@ class Lane{
         void setType(string s);
         void work();
         void start();
-
-
-
+        void addSchedule();
+        void print();
+        void addCurrent();
 };
 
 

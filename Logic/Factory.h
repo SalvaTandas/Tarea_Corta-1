@@ -7,6 +7,7 @@
 
 
 #include "../Structures/Lane.h"
+#include "Process_Maker.h"
 
 class Factory
 {
@@ -19,7 +20,7 @@ class Factory
         Lane* type6;
     public:
         Factory();
-        void processMaker(string pType,string lType);
+        static Process_Maker* pMaker;
         static Lane* waitingLane;
 
 

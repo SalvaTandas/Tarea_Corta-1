@@ -11,8 +11,8 @@ using namespace std;
 
 class Process {
     private:
-        string* type;
-        int* time;
+        string type;
+        int time;
     public:
         Process();
         Process(int t, string s);
